@@ -1,0 +1,133 @@
+/*---------------------------
+Index
+-----------------------------*/
+
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav-item {
+  margin-right: 25px;
+  font-weight: 600;
+}
+
+.header,
+.aboutUs {
+  height: 455px;
+}
+
+.artikel {
+  margin-top: 180px;
+}
+
+.kontak {
+  margin-bottom: 100px;
+}
+
+.header h3,
+.aboutUs h2,
+.artikel h3,
+.kepengurusan h3,
+.himpunan h3,
+.kontak h3 {
+  font-weight: 600;
+}
+
+.header h3.font2 {
+  color: #e78181;
+}
+
+.header p,
+.aboutUs p,
+.artikel p,
+.kepengurusan p,
+.kontak p {
+  font-weight: 400;
+  color: #000000;
+}
+
+.artikel h5,
+.kepengurusan h5,
+.kontak h5 {
+  font-weight: bold;
+  color: #171717;
+}
+
+.figure-img {
+  margin-bottom: 30px;
+}
+
+.figure-caption h5,
+.kontak h5 {
+  margin-bottom: 20px;
+}
+
+/*---------------------------
+CONTACT PAGE
+-----------------------------*/
+
+#contact-info {
+  padding-top: 90px;
+}
+.contact-info-block {
+  border: 1px solid#eee;
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+.contact-info-block h4 {
+  margin-bottom: 0px;
+}
+.contact-info-block i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: block;
+  color: #761b97;
+}
+
+.form-control:focus,
+.form-control:hover {
+  border-color: #761b97;
+  box-shadow: none;
+}
+
+footer {
+  font-family: "Montserrat";
+  padding: 20px;
+  color: #7a6f6f;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*---------------------------
+Page Detail Anggota
+-----------------------------*/
+
+.search_section > form {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr 0.5fr;
+  grid-gap: 400px;
+  
+}
+
+.search_section > form > input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 300%;
+  
+}
+
+.search_section > form > button {
+  background-color: #761b97;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  margin-right: 20px;
+}
+

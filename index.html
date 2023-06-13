@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.css" />
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@200;400;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Splidejs -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Bu Kost</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo_bukost.png" alt="Bukost" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carikost.html">Cari Kost</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kebijakan Bukost</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pusat bantuan</a>
+          </li>
+          <li>
+            <a href="login.html" class="btn text-white" style="background-color: #761b97 ;">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Header -->
+  <div id="header" class="header" data-ride="header">
+    <div class="header-inner">
+      <div class="container" style="padding-top: 100px">
+        <div class="header-item active">
+          <div class="row pt-5">
+            <div class="col-6 pt-5">
+              <br><br><br>
+              <h5>INVITES YOU TO</h5>
+              <br>
+              <h3 class="font2">BU KOST</h3>
+              <br>
+              <p>
+                Pusat Pencari Kost Terkini Di Purwokerto
+              </p>
+              <!-- <a href="#" class="btn text-white rounded-pill" style="background-color: #761b97 ;">Hubungi ?</a> -->
+            </div>
+            <div class="col-4 d-none d-sm-block">
+              <img src="img/Code Development _Flatline 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Header -->
+
+  <!-- About Us -->
+  <div id="aboutUs" class="aboutUs" data-ride="aboutUs">
+    <div class="aboutUs-inner">
+      <div class="container" style="padding-top: 150px">
+        <div class="aboutUs-item active">
+          <div class="row">
+            <div class="col">
+              <h4 class="pt-5"><b>Butuh kost cepat?</b></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col align-items-center">
+              <p>Dapatkan info dan kost tepat buatmu segera</p>
+            </div>
+          </div>
+          <div class="row">
+            <section class="search_section">
+              <form id="searchBook">
+                <input id="searchBookTitle" type="text" placeholder="Search..">
+                <button id="searchSubmit" type="submit">Cari</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir About Us -->
+
+  <!--Artikel-->
+  <!-- <section class="artikel">
+    <div class="container" style="padding-top: 200px">
+            <div class="row mb-5">
+                <div class="col">
+                    <h3 class="text-center">Artikel</h3>
+                </div>
+            </div>
+    <div
+      id="carouselArtikelControls"
+      class="carousel slide mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="container">
+          <div class="carousel-item active">
+            
+            <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <figure class="figure">
+                            <img src="Img/artikel1.png" class="figure-img img-fluid">
+                            <figcaption class="figure-caption">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5>Permikomnas Adakan Permitech 2021</h5>
+                                        <p class="d-flex justify-content-end">Read More >></p>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <div class="col-md-4 col-sm-6">
+                    <figure class="figure">
+                        <img src="Img/artikel2.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Permikomnas Adakan Permitech 2021</h5>
+                                    <p class="d-flex justify-content-end">Read More >></p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <figure class="figure">
+                        <img src="Img/artikel3.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row-6">
+                                <div class="col">
+                                    <h5>Permikomnas Adakan Permitech 2021</h5>
+                                    <p class="d-flex justify-content-end">Read More >></p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev" style="background-color: transparent; height: 30px; width: 30px;"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+        style="background-color: transparent; height: 30px; width: 30px;"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    </section> -->
+  <!--Akhir Artikel-->
+
+  <!-- Kepengurusan -->
+  <!-- <section class="kepengurusan">
+        <div class="container" style="padding-top: 150px;">
+            <div class="row mb-5">
+                <div class="col">
+                    <h3 class="text-center">Kepengurusan</h3>
+                </div>
+            </div>
+            <div class="row mb-5">
+            <div class="col text-center">
+                <figure class="figure">
+                    <img src="Img/logo-ph 1.png" class="figure-img img-fluid">
+                <figcaption class="figure-caption text-center">
+                    <h5>Pengurus Harian</h5>
+                    <a href="#" class="btn text-white" style="background-color: #761b97 ;">Details</a>
+                </figure>
+            </div>
+
+            <div
+            class="col text-center">
+            <figure class="figure">
+                <img src="Img/logo-ph 1.png" class="figure-img img-fluid">
+                <figcaption class="figure-caption text-center">
+                    <h5>Divisi Internal</h5>
+                    <a href="#" class="btn text-white" style="background-color: #761b97 ;">Details</a>
+                </figcaption>
+            </figure>
+            </div>
+
+            <div class="col text-center">
+                <figure class="figure">
+                    <img src="Img/logo-ph 1.png" class="figure-img img-fluid">
+                <figcaption class="figure-caption text-center">
+                    <h5>Divisi Eksternal</h5>
+                    <a href="#" class="btn text-white" style="background-color: #761b97 ;">Details</a>
+                </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center">
+                <figure class="figure">
+                    <img src="Img/logo bisnis dan usaha 1.png" class="figure-img img-fluid">
+                <figcaption class="figure-caption text-center">
+                    <h5>Divisi Medkominfo</h5>
+                    <a href="#" class="btn text-white" style="background-color: #761b97 ;">Details</a>
+                </figcaption>
+                </figure>
+            </div>
+
+            <div
+            class="col text-center">
+            <figure class="figure">
+                <img src="Img/logo bisnis dan usaha 1.png" class="figure-img img-fluid">
+                <figcaption class="figure-caption text-center">
+                    <h5>Divisi Bisnis & Usaha</h5>
+                    <a href="#" class="btn text-white" style="background-color: #761b97 ;">Details</a>
+                </figcaption>
+            </figure>
+            </div>
+
+            <div class="col text-center">
+                <figure class="figure">
+                    <img src="Img/logo bisnis dan usaha 1.png" class="figure-img img-fluid">
+                <figcaption class="figure-caption text-center">
+                    <h5>Divisi IT</h5>
+                    <a href="#" class="btn text-white" style="background-color: #761b97 ;">Details</a>
+                </figcaption>
+                </figure>
+            </div>
+        </div>
+        </div>
+    </section> -->
+  <!-- Akhir Kepengurusan -->
+
+  <!-- Promo -->
+  <section class="promo mb-5  text-center" style="background-color: rgb(215, 215, 215);">
+    <div class="container" style="padding-top: 100px">
+      <div class="row mb-5">
+        <div class="col">
+          <h4><b>Promo</b></h4>
+        </div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid d-block w-100" />
+                </div>
+              </figure>
+            </div>
+
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Promo -->
+
+  <!-- Popular Place -->
+  <section class="promo text-center" style="background-color: rgb(215, 215, 215)">
+    <div class="container" style="padding-top: 100px">
+      <div class="row mb-5">
+        <div class="col">
+          <h4><b>Popular Place</b></h4>
+        </div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid d-block w-100" />
+                </div>
+              </figure>
+            </div>
+
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <figure class="figure">
+                <div class="figure-img">
+                  <img src="Img/Rectangle.png" class="figure-img img-fluid" />
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Promo -->
+
+  <!-- Kontak -->
+  <!-- <section class="kontak text-center" id="contact" style="padding-top: 150px;">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col">
+              <h3>Kontak</h3>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="row-lg-6 row-md-6">
+                  <div class="col mb-5">
+                <div class="row">
+                  <h5 class="">Email</h5>
+                </div>
+                <div class="row">
+                  <p>permikomnas@google.com</p>
+                </div>
+              </div>
+                </div>
+                <div class="row-lg-6 row-md-6">
+                  <div class="col">
+                <div class="row">
+                  <h5>Sosial Media</h5>
+                </div>
+                <div class="row">
+                  <a href="">
+                    <img src="Img/fb.png" />
+                  </a>
+                  <a href="">
+                    <img src="Img/ig.png" />
+                  </a>
+                  <a href="">
+                    <img src="Img/youtube.png" />
+                  </a>
+                </div>
+              </div>
+                </div>
+              </div>
+
+                <div class="col-lg-6">
+                  
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                Your message was sent successfully.
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <form class="contact_form" action="mail.php">
+                        <div class="row">
+                            
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input class="form-control" name="name" id="name" required="" placeholder="Nama Anda" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <div class="input-group ">
+                                        <input class="form-control" name="email" id="email" required="" placeholder="Email Kamu" type="email">
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="w-100"></div>
+
+                        </div>
+
+                       
+                        <div class="form-group mb-5" style="height: 100px;">
+                            <div class="input-group">
+                                <textarea class="form-control" rows="6" name="message" id="message" required="" placeholder="Pesan"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="pt-5">
+                <input
+                  name="submit"
+                  type="submit"
+                  class="btn btn-circled float-right"
+                  value="Kirim Pesan"
+                  style="background-color: #e78181; color: white"
+                />
+              </div>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+  <!-- Akhir Kontak -->
+
+  <!-- Footer -->
+  <footer class="pt-5">
+    <p> Copyright © 2023 | BU KOST | All rights reserved</p>
+  </footer>
+  <!-- Akhir Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>
